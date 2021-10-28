@@ -16,7 +16,7 @@ export const projects = [
     image: "/images/portfolio.png",
     tags: ["Next js", "CSS", "Bootstrap", "JQuery", "git", "bash", "Heroku"],
     source: "",
-    visit: "",
+    visit: "https://portfoliojap.herokuapp.com/",
     id: 1,
   },
   {
@@ -26,7 +26,7 @@ export const projects = [
     image: "/images/woves.png",
     tags: ["React js", "SCSS", "Google Oauth", "git", "bash", "Heroku"],
     source: "",
-    visit: "",
+    visit: "https://woves.herokuapp.com/main",
     id: 2,
   },
   {

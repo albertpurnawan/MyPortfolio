@@ -10,7 +10,7 @@ import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 const data = [
   { number: 1, text: "Graduated from Computer Science course" },
   { number: 3, text: "Project done" },
-  { number: 2, text: "Sertifcate" },
+  { number: 2, text: "Sertificate" },
 ];
 
 const Acomplishments = () => (
