@@ -25,7 +25,7 @@ export const projects = [
     title: "Woves",
     status: "Done",
     description:
-      "Woves is a simple sound player for listening to the music/sound",
+      "Woves is a simple sound player for listening to the music/sound that can next pause or previous the song",
     image: "/images/woves.png",
     tags: ["React js", "SCSS", "Google Oauth", "git", "bash", "Heroku"],
     source: "https://github.com/albertpurnawan/woves",
@@ -36,7 +36,7 @@ export const projects = [
     title: "SuitGame",
     status: "Done",
     description:
-      "SuitGame is a gunting, batu, kertas we usually played when we were child, and still in the under progress to make the other game.",
+      "SuitGame is a gunting, batu, kertas and still in the under progress to make the other game.",
     image: "/images/suitgame.png",
     tags: ["Next js", "Bootstrap", "Node js", "git", "bash", "Heroku"],
     source: "https://github.com/albertpurnawan/SuitGame",
