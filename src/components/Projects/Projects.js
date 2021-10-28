@@ -33,7 +33,8 @@ const Projects = () => (
             <HeaderThree title={p.title}>{p.title}</HeaderThree>
             <Hr />
 
-            <TitleContent title={p.status}>{p.status}</TitleContent>
+            <TitleContent title={p.status}>Status: {p.status}</TitleContent>
+            <Hr />
 
             <CardInfo className="card-info">{p.description}</CardInfo>
             <div>
