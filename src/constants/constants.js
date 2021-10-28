@@ -1,6 +1,7 @@
 export const projects = [
   {
     title: "Babeh Group",
+    status: "Ongoing",
     description:
       "Babeh Groupis is a admin, cashier, finance, stcok management website to help my uncle to manage restaurant ",
     image: "/images/babehgroup.png",
@@ -11,6 +12,7 @@ export const projects = [
   },
   {
     title: "Portfolio Website",
+    status: "Done",
     description:
       "This was my personal portfolio website to store all my newest data about my resume, skill, journey, etc.",
     image: "/images/portfolio.png",
@@ -21,6 +23,7 @@ export const projects = [
   },
   {
     title: "Woves",
+    status: "Done",
     description:
       "Woves is a simple sound player for listening to the music/sound",
     image: "/images/woves.png",
@@ -31,6 +34,7 @@ export const projects = [
   },
   {
     title: "SuitGame",
+    status: "Done",
     description:
       "SuitGame is a gunting, batu, kertas we usually played when we were child, and still in the under progress to make the other game.",
     image: "/images/suitgame.png",

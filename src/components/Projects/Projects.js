@@ -1,8 +1,24 @@
-import React from 'react';
+import React from "react";
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { projects } from '../../constants/constants';
+import {
+  BlogCard,
+  CardInfo,
+  ExternalLinks,
+  GridContainer,
+  HeaderThree,
+  Hr,
+  Tag,
+  TagList,
+  TitleContent,
+  UtilityList,
+  Img,
+} from "./ProjectsStyles";
+import {
+  Section,
+  SectionDivider,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import { projects } from "../../constants/constants";
 
 const Projects = () => (
   <Section id="projects">
@@ -16,6 +32,8 @@ const Projects = () => (
 
             <HeaderThree title={p.title}>{p.title}</HeaderThree>
             <Hr />
+
+            <TitleContent title={p.status}>{p.status}</TitleContent>
 
             <CardInfo className="card-info">{p.description}</CardInfo>
             <div>
