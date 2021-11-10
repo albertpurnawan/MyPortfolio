@@ -57,16 +57,25 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com/albertpurnawan">
+      <SocialIcons href="https://github.com/albertpurnawan" target="_blank">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="http://www.linkedin.com/in/jonathan-albert-96b192196">
+      <SocialIcons
+        href="http://www.linkedin.com/in/jonathan-albert-96b192196"
+        target="_blank"
+      >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.instagram.com/albert_purnawan">
+      <SocialIcons
+        href="https://www.instagram.com/albert_purnawan"
+        target="_blank"
+      >
         <AiFillInstagram size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://web.facebook.com/jonathan.abert.7">
+      <SocialIcons
+        href="https://web.facebook.com/jonathan.abert.7"
+        target="_blank"
+      >
         <AiFillFacebook size="3rem" />
       </SocialIcons>
     </Div3>

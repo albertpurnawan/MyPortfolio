@@ -4,7 +4,6 @@ import {
   Section,
   SectionText,
   SectionTitle,
-  Link,
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
@@ -20,10 +19,11 @@ const Hero = (props) => (
           Hello there, My name is Jonathan Albert Purnawan. I am an student of
           Computer Science at Bina Nusantara.
         </SectionText>
+
         <Button
           onClick={(e) => {
             e.preventDefault();
-            window.location.href = "/files/resume.pdf";
+            window.open("/files/resume.pdf", "_blank");
           }}
         >
           My Resume

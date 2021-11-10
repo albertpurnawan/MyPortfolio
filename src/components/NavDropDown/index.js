@@ -13,7 +13,11 @@ import {
 
 const NavDropDown = (props) => (
   <DropDownContainer active={props.isOpen}>
-    <DropDownItem href="#" target="_blank" rel="noreferrer">
+    <DropDownItem
+      href="https://wa.me/085156845984"
+      target="_blank"
+      rel="noreferrer"
+    >
       <DropDownIcon>
         <AiFillPhone />
       </DropDownIcon>
@@ -24,7 +28,11 @@ const NavDropDown = (props) => (
         </DropDownItemDesc>
       </DropDownTextContainer>
     </DropDownItem>
-    <DropDownItem href="#" target="_blank" rel="noreferrer">
+    <DropDownItem
+      href="mailto:albertpurnawan1@gmail.com"
+      target="_blank"
+      rel="noreferrer"
+    >
       <DropDownIcon>
         <AiOutlineMail />
       </DropDownIcon>

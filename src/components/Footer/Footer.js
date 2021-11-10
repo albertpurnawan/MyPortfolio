@@ -25,11 +25,13 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Chat</LinkTitle>
-          <LinkItem href="https://t.me/JOALPUR">Telegram</LinkItem>
+          <LinkItem href="https://t.me/JOALPUR" target="_blank">
+            Telegram
+          </LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:albertpurnawan1@gmail.com">
+          <LinkItem href="mailto:albertpurnawan1@gmail.com" target="_blank">
             albertpurnawan1@gmail.com
           </LinkItem>
         </LinkColumn>
@@ -38,7 +40,10 @@ const Footer = () => {
         <CompanyContainer>
           <Slogan>
             &copy; 2021{" "}
-            <Link href="http://linkedin.com/in/jonathan-albert-96b192196">
+            <Link
+              href="http://linkedin.com/in/jonathan-albert-96b192196"
+              target="_blank"
+            >
               {" "}
               Jonathan Albert Purnawan
             </Link>{" "}
@@ -46,16 +51,25 @@ const Footer = () => {
           </Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/albertpurnawan">
+          <SocialIcons href="https://github.com/albertpurnawan" target="_blank">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="http://linkedin.com/in/jonathan-albert-96b192196">
+          <SocialIcons
+            href="http://linkedin.com/in/jonathan-albert-96b192196"
+            target="_blank"
+          >
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.instagram.com/albert_purnawan/">
+          <SocialIcons
+            href="https://www.instagram.com/albert_purnawan/"
+            target="_blank"
+          >
             <AiFillInstagram size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://web.facebook.com/jonathan.abert.7">
+          <SocialIcons
+            href="https://web.facebook.com/jonathan.abert.7"
+            target="_blank"
+          >
             <AiFillFacebook size="3rem" />
           </SocialIcons>
         </SocialContainer>

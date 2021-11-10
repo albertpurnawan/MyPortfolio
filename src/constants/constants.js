@@ -3,11 +3,11 @@ export const projects = [
     title: "Babeh Group",
     status: "Ongoing",
     description:
-      "Babeh Groupis is a admin, cashier, finance, stcok management website to help my uncle to manage restaurant ",
+      "Babeh Group is a admin, cashier, finance, stcok management website to help my uncle to manage restaurant ",
     image: "/images/babehgroup.png",
     tags: ["Next js", "Tailwind CSS", "git", "bash", "Heroku"],
-    source: "",
-    visit: "",
+    source: "/error",
+    visit: "https://babeh-group.herokuapp.com/",
     id: 0,
   },
   {
@@ -42,6 +42,17 @@ export const projects = [
     source: "https://github.com/albertpurnawan/SuitGame",
     visit: "https://client-suit-game.herokuapp.com/",
     id: 3,
+  },
+  {
+    title: "Adinda Portfolio",
+    status: "Done",
+    description:
+      "Adinda Portfolio is a portfolio that I make for my client, and the design that is made according to the client's wishes.",
+    image: "/images/adindaportfolio.png",
+    tags: ["Next js", "Tailwind CSS", "git", "bash", "Heroku"],
+    source: "/error",
+    visit: "https://adindaportfolio.herokuapp.com/",
+    id: 4,
   },
 ];
 
