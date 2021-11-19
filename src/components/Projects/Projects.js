@@ -45,6 +45,11 @@ const Projects = () => (
                   return <Tag key={i}>{t}</Tag>;
                 })}
               </TagList>
+              <TagList>
+                {p.tags2.map((t, i) => {
+                  return <Tag key={i}>{t}</Tag>;
+                })}
+              </TagList>
             </div>
             <UtilityList>
               <ExternalLinks href={p.visit} target="_blank">
