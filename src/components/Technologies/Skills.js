@@ -7,6 +7,7 @@ import {
   DiDatabase,
   DiHeroku,
   DiGithub,
+  DiJava,
 } from "react-icons/di";
 import { SiGit } from "react-icons/si";
 
@@ -74,11 +75,21 @@ export const Skills = [
     title: "Heroku",
     Description: () => <>I recently using Heroku for deploying my project.</>,
   },
-
   {
     slug: "github",
     Component: DiGithub,
     title: "Github",
     Description: () => <>I usually using Github for store my project.</>,
+  },
+  {
+    slug: "java",
+    Component: DiJava,
+    title: "Java",
+    Description: () => (
+      <>
+        I recently using Java with Framework Spring Boot for developing website
+        at Mayora
+      </>
+    ),
   },
 ];

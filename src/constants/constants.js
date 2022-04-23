@@ -17,7 +17,7 @@ export const projects = [
     description:
       "This was my personal portfolio website to store all my newest data about my resume, skill, journey, etc.",
     image: "/images/portfolio.png",
-    tags: ["Next js", "CSS", "Bootstrap", "JQuery", "git"],
+    tags: ["React js", "CSS", "Bootstrap", "JQuery", "git"],
     tags2: ["bash", "Heroku"],
     source: "https://github.com/albertpurnawan/portfolio",
     visit: "https://portfoliojap.herokuapp.com/",
@@ -51,7 +51,7 @@ export const projects = [
     title: "Adinda Portfolio",
     status: "Done",
     description:
-      "Adinda Portfolio is a portfolio that I make for my client, and the design that is made according to the client's wishes.",
+      "Adinda Portfolio is a portfolio that I make for my client Adinda Putri Lizarika, and the design that is made according to the client's wishes.",
     image: "/images/adindaportfolio.png",
     tags: ["Next js", "Tailwind CSS", "git", "bash", "Heroku"],
     tags2: ["Heroku"],
@@ -59,9 +59,22 @@ export const projects = [
     visit: "https://adindaportfolio.herokuapp.com/",
     id: 4,
   },
+  {
+    title: "Pieter Portfolio",
+    status: "Done",
+    description:
+      "Pieter Portfolio is a portfolio that I make for my client Pieter Damian Raharjo, and the design that is made according to the client's wishes and based on client needed.",
+    image: "/images/pieterportfolio.png",
+    tags: ["Next js", "Tailwind CSS", "git", "bash", "Heroku"],
+    tags2: ["Heroku"],
+    source: "/error",
+    visit: "https://pieterportfolio.herokuapp.com/",
+    id: 4,
+  },
 ];
 
 export const TimeLineData = [
-  { year: 2019, text: "Start study Computer Science at Bina Nusantara." },
+  { year: "On Going", text: "Start study Computer Science at Bina Nusantara." },
   { year: 2021, text: "Finish study Fullstack Development at Binar Academy" },
+  { year: "On Going", text: "Internship at Mayora as Fullstack Developer" },
 ];
