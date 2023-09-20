@@ -16,8 +16,7 @@ const Hero = (props) => (
           Hello there,
         </SectionTitle>
         <SectionText>
-          Hello there, My name is Jonathan Albert Purnawan. I am an student of
-          Computer Science at Bina Nusantara.
+          Hello there, My name is Jonathan Albert Purnawan.
         </SectionText>
 
         <Button

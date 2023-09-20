@@ -18,40 +18,42 @@ import {
 const Header = () => (
   <Container>
     <Div1>
-      <Link href="/">
-        <a style={{ display: "flex", alignItems: "center", color: "white" }}>
-          <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }}>
-            Jonathan
-          </span>
-          <span style={{ marginLeft: 5, marginTop: 7, fontSize: 20 }}>
-            Albert
-          </span>
-          <span
-            style={{
-              marginLeft: 5,
-              marginTop: 7,
-              fontSize: 20,
-              marginRight: 200,
-            }}
-          >
-            Purnawan
-          </span>
-        </a>
+      <Link
+        href="/"
+        style={{ display: "flex", alignItems: "center", color: "white" }}>
+
+        <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }}>
+          Jonathan
+        </span>
+        <span style={{ marginLeft: 5, marginTop: 7, fontSize: 20 }}>
+          Albert
+        </span>
+        <span
+          style={{
+            marginLeft: 5,
+            marginTop: 7,
+            fontSize: 20,
+            marginRight: 200,
+          }}
+        >
+          Purnawan
+        </span>
+
       </Link>
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
+        <Link href="#projects" legacyBehavior>
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#skills">
+        <Link href="#skills" legacyBehavior>
           <NavLink>Skills</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#about">
+        <Link href="#about" legacyBehavior>
           <NavLink>About</NavLink>
         </Link>
       </li>

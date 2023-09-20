@@ -8,10 +8,10 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll - behavior: smooth;
   }
   html {
     font-size: 62.5%;
-    scroll-behavior: smooth;
 
   }
   body {

@@ -1,10 +1,15 @@
 import styled from 'styled-components';
 
 export const Img = styled.img`
-  width:100%;
+  width: 100%;
   height:100%;
   object-fit: cover;
   overflow: hidden;
+  @media ${(props) => props.theme.breakpoints.sm} {
+  width:100%;
+  height:auto;
+  object-fit: fill;
+}
 `
 
 export const GridContainer = styled.section`

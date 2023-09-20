@@ -33,7 +33,7 @@ function Error() {
       <br />
       <br />
       <br />
-      <Link href="/">
+      <Link href="/" legacyBehavior>
         <Button>Return to Home</Button>
       </Link>
       <br />

@@ -1,33 +1,30 @@
 import {
-  DiTerminal,
   DiNodejs,
-  DiCode,
   DiCss3,
   DiReact,
   DiDatabase,
-  DiHeroku,
-  DiGithub,
   DiJava,
+  DiDart,
+  DiPhp,
 } from "react-icons/di";
 import { SiGit } from "react-icons/si";
 
 export const Skills = [
-  {
-    slug: "website",
-    Component: DiCode,
-    title: "Website",
-    Description: () => (
-      <>I recently make project using Next js, React js, Node js</>
-    ),
-  },
+  // {
+  //   slug: "website",
+  //   Component: DiCode,
+  //   title: "Website",
+  //   Description: () => (
+  //     <>I recently make project using Next js, React js, Node js</>
+  //   ),
+  // },
   {
     slug: "styling",
     Component: DiCss3,
     title: "Styling",
     Description: () => (
       <>
-        Currently working with Tailwind css, Bootsrap, CSS for styling the
-        website.{" "}
+        I like to use Tailwind CSS, Bootsrap, CSS for styling web-based application.
       </>
     ),
   },
@@ -37,8 +34,7 @@ export const Skills = [
     title: "React js & Next js",
     Description: () => (
       <>
-        I can code in pure HTML. But I mainly use it for helping me make website
-        a lot easier and faster.
+        I use React JS and Next JS for developing a web-based application.
       </>
     ),
   },
@@ -47,7 +43,7 @@ export const Skills = [
     Component: DiNodejs,
     title: "Node js",
     Description: () => (
-      <>I have been using node js a lot for connecting to the database.</>
+      <>I use Node JS for integrate application with data from Database or API.</>
     ),
   },
   {
@@ -55,7 +51,7 @@ export const Skills = [
     Component: DiDatabase,
     title: "Database",
     Description: () => (
-      <>I have used PostgreSQL and MySQL for database in my website.</>
+      <>I use PostgreSQL and MySQL for database.</>
     ),
   },
   {
@@ -64,22 +60,15 @@ export const Skills = [
     title: "Git",
     Description: () => (
       <>
-        Git is a tool that I use every day. I use GitHub for running, pushing,
-        instaling package and many other command that i would use to my code.
+       I use Git Command for run, push, install package and many other command that i would use to my code.
       </>
     ),
   },
-  {
-    slug: "heroku",
-    Component: DiHeroku,
-    title: "Heroku",
-    Description: () => <>I recently using Heroku for deploying my project.</>,
-  },
-  {
-    slug: "github",
-    Component: DiGithub,
-    title: "Github",
-    Description: () => <>I usually using Github for store my project.</>,
+    {
+    slug: "php",
+    Component: DiPhp,
+    title: "PHP",
+    Description: () => <>I use PHP for my university project.</>,
   },
   {
     slug: "java",
@@ -87,8 +76,17 @@ export const Skills = [
     title: "Java",
     Description: () => (
       <>
-        I recently using Java with Framework Spring Boot for developing website
-        at Mayora
+        I use Java with Framework Spring Boot for developing website at Mayora and developing mobile app with Framework Kotlin.
+      </>
+    ),
+  },
+    {
+    slug: "dart",
+    Component: DiDart,
+    title: "Dart",
+    Description: () => (
+      <>
+        I use Dart with Framework Flutter for developing my Thesis project and mobile app
       </>
     ),
   },

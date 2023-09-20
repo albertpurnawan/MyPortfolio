@@ -1,16 +1,16 @@
 export const projects = [
-  {
-    title: "Babeh Group",
-    status: "Ongoing",
-    description:
-      "Babeh Group is a admin, cashier, finance, stcok management website to help my uncle to manage restaurant ",
-    image: "/images/babehgroup.png",
-    tags: ["Next js", "Tailwind CSS", "CSS", "git", "bash"],
-    tags2: ["Heroku"],
-    source: "/error",
-    visit: "https://babeh-group.herokuapp.com/",
-    id: 0,
-  },
+  // {
+  //   title: "Babeh Group",
+  //   status: "Ongoing",
+  //   description:
+  //     "Babeh Group is a admin, cashier, finance, stcok management website to help my uncle to manage restaurant ",
+  //   image: "/images/babehgroup.png",
+  //   tags: ["Next js", "Tailwind CSS", "CSS", "git", "bash"],
+  //   tags2: ["Heroku"],
+  //   source: "/error",
+  //   visit: "https://babeh-group.herokuapp.com/",
+  //   id: 0,
+  // },
   {
     title: "Portfolio Website",
     status: "Done",
@@ -21,7 +21,7 @@ export const projects = [
     tags2: ["bash", "Heroku"],
     source: "https://github.com/albertpurnawan/portfolio",
     visit: "https://portfoliojap.herokuapp.com/",
-    id: 1,
+    id: 0,
   },
   {
     title: "Woves",
@@ -33,7 +33,7 @@ export const projects = [
     tags2: ["bash", "Heroku"],
     source: "https://github.com/albertpurnawan/woves",
     visit: "https://woves.herokuapp.com/main",
-    id: 2,
+    id: 1,
   },
   {
     title: "SuitGame",
@@ -45,7 +45,7 @@ export const projects = [
     tags2: ["bash", "Heroku"],
     source: "https://github.com/albertpurnawan/SuitGame",
     visit: "https://client-suit-game.herokuapp.com/",
-    id: 3,
+    id: 2,
   },
   {
     title: "Adinda Portfolio",
@@ -57,7 +57,7 @@ export const projects = [
     tags2: ["Heroku"],
     source: "/error",
     visit: "https://adindaportfolio.herokuapp.com/",
-    id: 4,
+    id: 3,
   },
   {
     title: "Pieter Portfolio",
@@ -71,10 +71,22 @@ export const projects = [
     visit: "https://pieterportfolio.herokuapp.com/",
     id: 4,
   },
+  {
+    title: "Amazing E-Book",
+    status: "Done",
+    description:
+      "Here is my final project website Programming Subject",
+    image: "/images/ebook.png",
+    tags: ["Laravel", "Bootstrap"],
+    tags2: ["bash", "Heroku"],
+    source: "https://github.com/albertpurnawan/portfolio",
+    visit: "https://portfoliojap.herokuapp.com/",
+    id: 5,
+  },
 ];
 
 export const TimeLineData = [
-  { year: "On Going", text: "Start study Computer Science at Bina Nusantara." },
-  { year: 2021, text: "Finish study Fullstack Development at Binar Academy" },
-  { year: "On Going", text: "Internship at Mayora as Fullstack Developer" },
+  { year: 2021, text: "Complete an study Fullstack Development at Binar Academy" },
+  { year: 2023, text: "Complete an study Computer Science at Bina Nusantara." },
+  { year: 2023, text: "Complete an internship at Mayora as Fullstack Developer" },
 ];
